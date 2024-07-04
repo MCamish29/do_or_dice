@@ -9,3 +9,15 @@
     font-family: "Protest Revolution", sans-serif;
     color: #D30606;
   }
+  /*General Styles*/
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image:url("../images/background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #525252;
+  }
