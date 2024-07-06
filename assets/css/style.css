@@ -12,7 +12,6 @@
   /*General Styles*/
 body{
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     background-image:url("../images/background.webp");
     background-repeat: no-repeat;
@@ -65,44 +64,50 @@ body{
 
 /*Dice.html Main Content*/
 #dice-heading{    
-    font-size: 150%;
+    font-size: 175%;
     margin-top: 15px;
     margin-bottom: 35px;
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 #dice-name{
     margin-bottom: 7px;
+    font-size: 250%;
 }
 #dice-cat{
     margin-bottom: 10px;
-    width: 15px;
-    margin-left: 10px;
-    text-align: center;
+    width: 50px;
+    font-size: 150%;
 }
 #roll{
     margin-bottom: 10px;
     padding: 10px 10px;
     font-size: 150%;
+    color: white;
+    background-color: #D30606;
+    transition-duration: 0.4s;
+    border-radius: 16px 0px 
+}
+#roll:hover{
+    background-color: white;
+    color: #D30606;
 }
 #result{
     margin-bottom: 10px;
-    width: 50px;
+    width: 60px;
     height: 50px;
     text-align: center;
     font-size: 175%;
-
+    border-radius: 16px 0px;
 }
 #dice-area{
-    text-align: center;
-}
-#dice{
-    display: inline-block;
-    margin:0px 15px;
-
-}
-
-@media (max-width: 320px){
-    #dice-area{
-        height: 70vh;
-    }
+    border: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 3em;
+    align-items: baseline;
+    margin:0px 45px ;
 }
