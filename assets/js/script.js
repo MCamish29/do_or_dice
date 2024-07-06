@@ -17,9 +17,12 @@ let rollD4 = document.getElementById("roll6");
 
 
 /**Adding DOM content loaded and event listners for buttons */
-document.addEventListener("DOMContentLoaded", function(){
-    buttons = document.getElementsByTagName("button");
-
+document.addEventListener("DOMContentLoaded", function(){ 
+    let buttons = document.getElementsByClassName("btn")
+    for (let i = 0; i < buttons.length; i++)
+        {
+        buttons[i].innerHTML="roll";
+    };
 });
 
 //Dice roll object of key value pairs that holds the multipoliers of each dice
@@ -92,37 +95,9 @@ rollD4.addEventListener("click",() => {
 });
 
 
-
-
-
-
-let d12Result = () => {
-    return Math.floor(Math.random() *12)+1;
+/**
+ * This code will return user to home page
+ */
+function returnHome(){
+    window.location.href="../index.html"
 };
-rollD12.addEventListener("click",() => {
-    result2.innerHTML = d12Result();
-});
-let d10Result = () => {
-    return Math.floor(Math.random() *10)+1;
-};
-rollD10.addEventListener("click",() => {
-    result3.innerHTML = d10Result();
-});
-let d8Result = () => {
-    return Math.floor(Math.random() *8)+1;
-};
-rollD8.addEventListener("click",() => {
-    result4.innerHTML = d8Result();
-});
-let d6Result = () => {
-    return Math.floor(Math.random() *6)+1;
-};
-rollD6.addEventListener("click",() => {
-    result5.innerHTML = d6Result();
-});
-let d4Result = () => {
-    return Math.floor(Math.random() *4)+1;
-};
-rollD4.addEventListener("click",() => {
-    result6.innerHTML = d4Result();
-});
