@@ -22,20 +22,19 @@ body{
     background-color: #525252;
   }
   /*Index Main Content*/
-h1{
-    text-align: center;
+#home-heading{    
     font-size: 400%;
     margin-top: 100px;
     margin-bottom: 50px;
+    text-align: center;
 }
 #welcome{
-    text-align: center;
     font-size: 150%;
     margin-left: 15px;
     margin-right: 15px;
+    text-align: center;
 }
 #entrance{
-    text-align: center;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -64,5 +63,46 @@ h1{
     height: auto;
 }
 
+/*Dice.html Main Content*/
+#dice-heading{    
+    font-size: 150%;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+#dice-name{
+    margin-bottom: 7px;
+}
+#dice-cat{
+    margin-bottom: 10px;
+    width: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+#roll{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 150%;
+}
+#result{
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 175%;
 
+}
+#dice-area{
+    text-align: center;
+}
+#dice{
+    display: inline-block;
+    margin:0px 15px;
 
+}
+
+@media (max-width: 320px){
+    #dice-area{
+        height: 70vh;
+    }
+}
