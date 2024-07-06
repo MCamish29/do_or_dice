@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 
-
 let d20Result = () => {
     return Math.floor(Math.random() *20)+1;
 };
