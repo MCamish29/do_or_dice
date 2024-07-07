@@ -143,6 +143,10 @@ a{
     background-color: white;
     color: #D30606;
 }
+#refresh:hover{
+    background-color: white;
+    color: #D30606;
+}
 
 #refresh-area{
     margin-left: 35%;
@@ -170,7 +174,51 @@ a{
         margin: 25px;
         text-align: center;
     }
+    #dice-area{       
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        gap: 3em;
+        align-items: center;
+        margin:0px 10% ;
+    }
+    .btn{
+        margin-bottom: 10px;
+        padding: 15px 27px;
+        font-size: 150%;
+        color: white;
+        background-color: #D30606;
+        transition-duration: 0.4s;
+        border-radius: 16px 0px 
+    }
+
 }
+/*Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px){
+    #dice-area{
+        border: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 3em;
+        align-items: baseline;
+        margin:0px 20% ;
+    }
+    .btn{
+        margin-bottom: 10px;
+        padding: 25px 27px;
+        font-size: 150%;
+        color: white;
+        background-color: #D30606;
+        transition-duration: 0.4s;
+        border-radius: 16px 0px 
+    }
+
+}
+
+
+
+
 
   /*Media query: Desktops and larger (1200px and up) */
   @media screen and (min-width: 1200px) {
@@ -184,6 +232,18 @@ a{
         margin: 25px;
         text-align: center;
     }
+    #dice-area{
+        border: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 3em;
+        align-items: baseline;
+        margin:0px 25% ;
+    }
+    
+
+   
 }
 
   
@@ -214,4 +274,54 @@ a{
         margin-bottom: 15px;
         text-align: center;
     }
+
+    #dice-area{
+        border: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 3em;
+        align-items: baseline;
+        margin:0px 20% ;
+        font-size: 250%;
+    }
+    .btn{
+        margin-bottom: 10px;
+        padding: 50px 70px;
+        font-size: 150%;
+        color: white;
+        background-color: #D30606;
+        transition-duration: 0.4s;
+        border-radius: 16px 0px 
+    }
+
+    #hm-btn{
+        margin-bottom: 10px; 
+        margin-left: 160px;   
+        width: 25%;
+        padding: 10px 10px;
+        font-size: 400%;
+        color: white;
+        background-color: #D30606;
+        transition-duration: 0.4s;
+        border-radius: 16px 0px
+    }
+    #dice-heading{    
+        font-size: 500%;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    #refresh {
+        margin-bottom: 10px; 
+        margin-left: 160px;   
+        width: 25%;
+        padding: 10px 10px;
+        font-size: 400%;
+        color: white;
+        background-color: #D30606;
+        transition-duration: 0.4s;
+        border-radius: 16px 0px
+}
 }
