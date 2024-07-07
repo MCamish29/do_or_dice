@@ -143,13 +143,15 @@ a{
     background-color: white;
     color: #D30606;
 }
-#refresh:hover{
+#reset:hover{
     background-color: white;
     color: #D30606;
 }
 
 #refresh-area{
     margin-left: 35%;
+    margin-bottom: 5%;
+    margin-top: 25px;
 }
 
 #reset{
@@ -200,9 +202,9 @@ a{
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        gap: 3em;
+        gap: 5em;
         align-items: baseline;
-        margin:0px 20% ;
+        margin:0px 10% ;
     }
     .btn{
         margin-bottom: 10px;
@@ -262,9 +264,9 @@ a{
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        gap: 3em;
+        gap: 7em;
         align-items: baseline;
-        margin:0px 25% ;
+        margin:0px 14% ;
     }
     .btn{
         margin-bottom: 10px;
@@ -312,9 +314,9 @@ a{
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        gap: 3em;
+        gap: 6em;
         align-items: baseline;
-        margin:0px 20% ;
+        margin:0px 8% ;
         font-size: 250%;
     }
     .btn{
@@ -345,7 +347,7 @@ a{
         text-align: center;
     }
 
-    #refresh {
+    #reset {
         margin-bottom: 10px; 
         margin-left: 160px;   
         width: 25%;
