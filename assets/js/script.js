@@ -14,6 +14,7 @@ let d6 = document.getElementById("result5");
 let rollD6 = document.getElementById("roll5");
 let d4 = document.getElementById("result6");
 let rollD4 = document.getElementById("roll6");
+let resetButton = document.getElementById("reset");
 
 
 /**Adding DOM content loaded and event listners for buttons */
@@ -92,6 +93,18 @@ rollD6.addEventListener("click",() => {
 rollD4.addEventListener("click",() => {
     let result =rollDice("d4");
     result6.innerHTML = result;
+});
+
+/**
+ * This function will reset all dice results to 0
+ */
+resetButton.addEventListener("click", () => {
+    d20.innerHTML = 0;
+    d12.innerHTML = 0;
+    d10.innerHTML = 0;
+    d8.innerHTML = 0;
+    d6.innerHTML = 0;
+    d4.innerHTML = 0;
 });
 
 /**
