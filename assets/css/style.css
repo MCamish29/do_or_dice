@@ -44,6 +44,8 @@ footer{
     display: flex;
     justify-content: center;
     display: grid;
+    font-size: 150%;
+
 }
 #entrance-bttn{
     font-size: 200%;
@@ -69,8 +71,8 @@ footer{
 }
 
 #instructions{
-    margin: 25 50px;
-    width: 50px;
+    margin: 25px 10px;
+    width: 300px;
     text-align: center;
 }
 #instruction-steps{
@@ -173,8 +175,8 @@ a{
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     #instructions{
-        margin: 25 50px;
-        width: 50px;
+        margin: 25px 130px;
+        width: 500px;
         text-align: center;
         font-size: 125%;
     }
@@ -221,7 +223,19 @@ a{
         transition-duration: 0.4s;
         border-radius: 16px 0px 
     }
-
+    #instructions{
+        margin: 25px 260px;
+        width: 500px;
+        text-align: center;
+        font-size: 125%;
+    }    
+    #welcome{
+        font-size: 250%;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }
 
 
@@ -231,8 +245,8 @@ a{
   /*Media query: Desktops and larger (1200px and up) */
   @media screen and (min-width: 1200px) {
     #instructions{
-        margin: 25 50px;
-        width: 50px;
+        margin: 25px 350px;
+        width: 500px;
         text-align: center;
         font-size: 150%;
     }
@@ -256,10 +270,10 @@ a{
   /*Media query: Desktops and larger (1440px and up) */
   @media screen and (min-width: 1440px) {
     #instructions{
-        margin: 25 50px;
-        width: 50px;
+        margin: 25px 420px;
+        width: 600px;
         text-align: center;
-        font-size: 150%;
+        font-size: 200%;
     }
     #instruction-steps{
         margin: 25px;
@@ -290,10 +304,10 @@ a{
   /*Media query: Desktops and larger (2560px and up) */
   @media screen and (min-width: 2560px) {
     #instructions{
-        margin: 25 50px;
-        width: 50px;
+        margin: 150px 860px;
+        width: 800px;
         text-align: center;
-        font-size: 275%;
+        font-size: 350%;
     }
     #instruction-steps{
         margin: 25px;
@@ -313,6 +327,7 @@ a{
         margin-right: 15px;
         margin-bottom: 15px;
         text-align: center;
+        margin-top: 150px;
     }
 
     #dice-area{
