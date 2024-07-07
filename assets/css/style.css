@@ -94,11 +94,11 @@ ul{
 a{
     text-decoration: none;
 }
-#dice-name{
+.dice-name{
     margin-bottom: 7px;
     font-size: 250%;
 }
-#dice-cat{
+.dice-cat{
     margin-bottom: 10px;
     width: 50px;
     font-size: 150%;

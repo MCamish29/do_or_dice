@@ -1,4 +1,3 @@
-
 /**
  * Calling DOM elements by their ids
  */
@@ -24,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(){
     for (let i = 0; i < buttons.length; i++)
         {
         buttons[i].innerHTML="roll";
-    };
+    }
 });
 
 
@@ -37,7 +36,7 @@ let diceRoll = {
     "d8": 8,
     "d6": 6,
     "d4": 4,
-}
+};
 
 /**
  * 
