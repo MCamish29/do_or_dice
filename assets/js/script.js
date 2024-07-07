@@ -25,13 +25,7 @@ document.addEventListener("DOMContentLoaded", function(){
     };
 });
 
-document.getElementsByClassName("results"){
-document.addEventListener(onclick, function(){
-    let result = ("d20");
-    result1.innerHTML = result;
 
-    })
-};
 
 
 

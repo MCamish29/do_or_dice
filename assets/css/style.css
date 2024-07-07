@@ -184,7 +184,7 @@ a{
     }
     .btn{
         margin-bottom: 10px;
-        padding: 15px 27px;
+        padding: 15px 10px;
         font-size: 150%;
         color: white;
         background-color: #D30606;
@@ -206,8 +206,8 @@ a{
     }
     .btn{
         margin-bottom: 10px;
-        padding: 25px 27px;
-        font-size: 150%;
+        padding: 25px 13px;
+        font-size: 125%;
         color: white;
         background-color: #D30606;
         transition-duration: 0.4s;
@@ -245,7 +245,39 @@ a{
 
    
 }
+  /*Media query: Desktops and larger (1440px and up) */
+  @media screen and (min-width: 1440px) {
+    #instructions{
+        margin: 25 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 150%;
+    }
+    #instruction-steps{
+        margin: 25px;
+        text-align: center;
+    }
+    #dice-area{
+        border: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 3em;
+        align-items: baseline;
+        margin:0px 25% ;
+    }
+    .btn{
+        margin-bottom: 10px;
+        padding: 25px 20px;
+        font-size: 150%;
+        color: white;
+        background-color: #D30606;
+        transition-duration: 0.4s;
+        border-radius: 16px 0px 
+    }
 
+   
+}
   
   /*Media query: Desktops and larger (2560px and up) */
   @media screen and (min-width: 2560px) {
@@ -287,8 +319,8 @@ a{
     }
     .btn{
         margin-bottom: 10px;
-        padding: 50px 70px;
-        font-size: 150%;
+        padding: 50px 35px;
+        font-size: 130%;
         color: white;
         background-color: #D30606;
         transition-duration: 0.4s;
