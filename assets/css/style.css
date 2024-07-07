@@ -23,8 +23,8 @@ body{
   /*Index Main Content*/
 #home-heading{    
     font-size: 400%;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     text-align: center;
 }
 #welcome{
@@ -64,13 +64,16 @@ body{
 }
 
 #instructions{
-    margin: 50px;
+    margin: 25 50px;
     width: 50px;
     text-align: center;
 }
 #instruction-steps{
     margin: 25px;
-    text-align: left;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
 }
 
 /*Dice.html Main Content*/
@@ -154,4 +157,61 @@ a{
     background-color: #D30606;
     transition-duration: 0.4s;
     border-radius: 16px 0px
+}
+/*Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #instructions{
+        margin: 25 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 125%;
+    }
+    #instruction-steps{
+        margin: 25px;
+        text-align: center;
+    }
+}
+
+  /*Media query: Desktops and larger (1200px and up) */
+  @media screen and (min-width: 1200px) {
+    #instructions{
+        margin: 25 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 150%;
+    }
+    #instruction-steps{
+        margin: 25px;
+        text-align: center;
+    }
+}
+
+  
+  /*Media query: Desktops and larger (2560px and up) */
+  @media screen and (min-width: 2560px) {
+    #instructions{
+        margin: 25 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 275%;
+    }
+    #instruction-steps{
+        margin: 25px;
+        text-align: center;
+    }
+
+    #home-heading{    
+        font-size: 900%;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #welcome{
+        font-size: 650%;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }
