@@ -15,6 +15,7 @@ let rollD6 = document.getElementById("roll5");
 let d4 = document.getElementById("result6");
 let rollD4 = document.getElementById("roll6");
 let resetButton = document.getElementById("reset");
+let homeButton = document.getElementById("hm-btn");
 
 
 /**Adding DOM content loaded and event listners for buttons */
@@ -111,5 +112,6 @@ resetButton.addEventListener("click", () => {
  * This code will return user to home page
  */
 function returnHome(){
-    window.location.href="../index.html"
-};
+    window.location.href="index.html";
+}
+homeButton.addEventListener("click", returnHome);
