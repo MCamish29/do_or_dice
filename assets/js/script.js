@@ -27,8 +27,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 
-
-
 //Dice roll object of key value pairs that holds the multipoliers of each dice
 let diceRoll = {
     "d20": 20,
@@ -52,19 +50,19 @@ function rollDice(dice){
     if(dice === "d20"){
         multiplier = diceRoll.d20;    
     }
-    else if (dice = "d12"){
+    else if (dice === "d12"){
         multiplier = diceRoll.d12;
     }
-    else if (dice = "d10"){
+    else if (dice === "d10"){
         multiplier = diceRoll.d10;
     }
-    else if (dice = "d8"){
+    else if (dice === "d8"){
         multiplier = diceRoll.d8;
     }
-    else if (dice = "d6"){
+    else if (dice === "d6"){
         multiplier = diceRoll.d6;
     }
-        else if (dice = "d4"){
+        else if (dice === "d4"){
         multiplier = diceRoll.d4;
     }
     return Math.floor(Math.random() * multiplier) +1;
@@ -83,12 +81,10 @@ rollD10.addEventListener("click",() => {
     let result =rollDice("d10");
     result3.innerHTML = result;
 });
-
 rollD8.addEventListener("click",() => {
     let result =rollDice("d8");
     result4.innerHTML = result;
 });
-
 rollD6.addEventListener("click",() => {
     let result =rollDice("d6");
     result5.innerHTML = result;
@@ -97,7 +93,6 @@ rollD4.addEventListener("click",() => {
     let result =rollDice("d4");
     result6.innerHTML = result;
 });
-
 
 /**
  * This code will return user to home page
